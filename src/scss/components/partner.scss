@@ -1,0 +1,8 @@
+.partner{
+    background-color:  #E5E5E5;
+    &__title{
+        @include font($color-green,600, 48px,$font-Josefin);
+        text-align: center;
+        
+    }
+}

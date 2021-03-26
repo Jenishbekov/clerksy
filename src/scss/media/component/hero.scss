@@ -1,0 +1,45 @@
+@media screen and (max-width:1100px){
+    .hero{
+        background-color: $color-green;
+        height: 65vh;
+        position: relative;
+        &__row{
+            align-items: center;
+        }
+        &__title{
+            font-family: "Recoleta",sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 65px;
+            color: #FBFAF7;
+            margin-top: 120px;
+        }
+        &__description{
+            font-family: "Noto Sans",sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 27px;
+            color: #FBFAF7;
+        }
+        &__img{
+            position: absolute;
+            bottom: 0;
+        }
+    }
+}
+@media screen and (max-width:750px){
+    .hero{
+        height: 85vh;
+        
+        
+        &__title{
+            align-items: center;
+        }
+        &__description{
+            align-items: center;
+        }
+        
+    }
+}

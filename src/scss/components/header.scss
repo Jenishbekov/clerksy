@@ -1,0 +1,33 @@
+.header{
+    padding: 20px 0;
+    background-color:$color-green;
+    &__row{
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__menu{
+        display: flex;
+        align-items: center;
+    }
+    &__item{
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: right;
+        color: #FBFAF7;
+        margin: 0 25px;
+        cursor: pointer;
+        &:last-child{
+            background-color: #198C36;
+            padding: 15px 25px;
+            border-radius: 160px;
+            transition: 0.3s;
+            &:hover{
+                background-color: rgba($color:#198C36, $alpha:7);
+            }
+        }
+    }
+  
+}

@@ -1,0 +1,30 @@
+.put{
+    background-color: #E5E5E5;
+    padding: 130px 0 115px;
+    &__row{
+        align-items: center;
+    }
+    &__title{
+        @include font($color-green,600,48px,$font-Josefin);
+        max-width: 350px;
+        margin-left: 99px;
+        
+    }
+    &__text{
+        @include font($color-green, normal,18px,$font-Noto);
+        max-width: 374px;
+        margin-left: 99px;
+        margin-top: 27px;
+    }
+    &__titles{
+        @include font($color-green, 600, 48px, $font-Josefin);
+        max-width: 400px;
+        margin-top: 13px;
+
+    }
+    &__texts{
+        @include font($color-green, normal, 18px, $font-Noto);
+        max-width: 380px;
+        margin-top: 27px;
+    }
+}
