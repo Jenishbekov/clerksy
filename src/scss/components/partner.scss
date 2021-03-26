@@ -3,6 +3,8 @@
     &__title{
         @include font($color-green,600, 48px,$font-Josefin);
         text-align: center;
-        
+    }
+    &__logo{
+        margin-top: 66px;
     }
 }
